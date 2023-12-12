@@ -1,25 +1,35 @@
-<UI version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>ZombieSimClass</class>
- <widget class="QWidget" name="ZombieSimClass" >
-  <property name="objectName" >
-   <string notr="true">ZombieSimClass</string>
-  </property>
-  <property name="geometry" >
+ <widget class="QWidget" name="ZombieSimClass">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>400</height>
+    <width>1280</width>
+    <height>720</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>ZombieSim</string>
-  </property>$centralwidget$
+  </property>
+  <widget class="QWidget" name="MainWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1281</width>
+     <height>721</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: black;</string>
+   </property>
+  </widget>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
+ <layoutdefault spacing="6" margin="11"/>
  <resources>
-   <include location="ZombieSim.qrc"/>
+  <include location="ZombieSim.qrc"/>
  </resources>
  <connections/>
-</UI>
+</ui>

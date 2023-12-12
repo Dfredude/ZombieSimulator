@@ -2,6 +2,7 @@
 
 #include <QtWidgets/QWidget>
 #include "ui_ZombieSim.h"
+#include "Organism.h"
 
 class ZombieSim : public QWidget
 {
@@ -9,8 +10,10 @@ class ZombieSim : public QWidget
 
 public:
     ZombieSim(QWidget *parent = nullptr);
-    ~ZombieSim();
+    ~ZombieSim();   
 
 private:
     Ui::ZombieSimClass ui;
+    City* city;
+    
 };
